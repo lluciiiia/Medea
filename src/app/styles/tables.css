@@ -1,0 +1,38 @@
+h2 {
+  font-size: 1.5em; /* Size of the headings */
+  font-weight: bold; /* Bold headings */
+  margin-bottom: 0.8em; /* Space above and below headings */
+  color: #333; /* Dark text color */
+}
+
+.scrollable-table {
+  width: 1000px; /* Full width of the parent */
+  min-height: 300px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+table {
+  color: black;
+  font-size: 0.7rem;
+  width: 100%; /* Full width of the parent */
+  height: 100%;
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  background-color: #fff; /* White background for tables */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+th,
+td {
+  padding: 8px; /* Add padding for comfortable spacing */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+thead {
+  font-weight: bold;
+  position: sticky;
+  top: 0; /* Keep header fixed at the top */
+  background-color: #f9f9f9; /* Optional: background for header */
+  z-index: 1; /* Ensure header is above other content */
+}
